@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px;
+}
+
+.container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #2d6cdf;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #2d6cdf;
+}
+
+button {
+  background: #2d6cdf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1b52b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #f1f3f6;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.bought {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+li button {
+  background: #ff4757;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+li button:hover {
+  background: #e84118;
+}
+
+li input.edit {
+  flex: 1;
+  border: 2px solid #2d6cdf;
+  border-radius: 8px;
+  padding: 6px;
+  outline: none;
+}
+
+/* Clear All button */
+.clear {
+  width: 100%;
+  margin-top: 20px;
+  background: #ff4757;
+  font-weight: 600;
+}
+
+.clear:hover {
+  background: #e84118;
+}
