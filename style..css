@@ -92,10 +92,6 @@ li {
   align-items: center;
 }
 
-li span {
-  cursor: pointer;
-}
-
 .theme-btn {
   position: absolute;
   top: 16px;
@@ -104,6 +100,7 @@ li span {
   border-radius: 50%;
   font-size: 18px;
   padding: 8px;
+  border: none;
 }
 
 .theme-btn:hover {
@@ -118,7 +115,6 @@ body.dark {
 
 body.dark .container {
   background: #1e1e1e;
-  color: #fff;
 }
 
 body.dark input {
@@ -135,5 +131,3 @@ body.dark .theme-btn {
   background: #2c2c2c;
   color: white;
 }
-
-
