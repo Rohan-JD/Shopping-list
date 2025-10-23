@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/png" href="favicon.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shopping List</title>
@@ -8,17 +9,15 @@
 </head>
 <body>
   <div class="container">
+    <button id="theme-toggle" class="theme-btn">🌙</button>
     <h1>🛍️ Shopping List</h1>
     <div class="input-area">
-      <input id="item-input" type="text" placeholder="Add an item..." />
+      <input type="text" id="item-input" placeholder="Enter an item..." />
       <button id="add-btn">Add</button>
     </div>
-
-    <ul id="list"></ul>
-
-    <button id="clear-btn" class="clear">🗑️ Clear All</button>
+    <ul id="item-list"></ul>
+    <button id="clear-btn">🗑️ Clear All</button>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
